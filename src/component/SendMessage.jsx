@@ -39,7 +39,7 @@ const SendMessage = () => {
                         onChange={(e) => setMessage(e.target.value)}
                         value={message}
                     />
-                    <Button onClick={()=> {}} type="submit"><SendIcon /></Button>
+                    <Button type="submit"><SendIcon /></Button>
                 </div>
             </form>
         </div>
