@@ -3,7 +3,7 @@ import { db, auth } from "../firebase.js"
 import firebase from "firebase/compat/app";
 import { Input } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send"
-
+import { Button } from "@mui/material";
 
 
 const SendMessage = () => {
@@ -39,7 +39,7 @@ const SendMessage = () => {
                         onChange={(e) => setMessage(e.target.value)}
                         value={message}
                     />
-                    <SendIcon />
+                    <Button onClick={()=> {}} type="submit"><SendIcon /></Button>
                 </div>
             </form>
         </div>

@@ -9,6 +9,7 @@ const SignOut = () => {
         <Button style={{color: "white", fontSize: "15px"}} onClick={() => auth.signOut()}>サインアウト</Button>
         <h3>{auth.currentUser.displayName}</h3>
         <CallIcon />
+        
     </div>
   )
 }
